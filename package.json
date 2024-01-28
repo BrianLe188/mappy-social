@@ -17,6 +17,7 @@
   "scripts": {
     "start": "zmp start",
     "deploy": "zmp deploy",
+    "start:device": "zmp start --device",
     "build:css": "postcss src/css/tailwind.css -o src/css/styles.css"
   },
   "dependencies": {
